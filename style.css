@@ -1,0 +1,116 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+header h1 {
+    font-size: 24px;
+  }
+  
+nav ul {
+    list-style-type: none;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos do carrinho */
+.cart {
+    position: relative;
+  }
+  
+.cart a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.cart img {
+    width: 30px;
+    vertical-align: middle;
+  }
+  
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  /* Estilos do conteúdo */
+.content {
+    padding: 20px;
+  }
+  
+  /* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+#foto{
+    width: auto;
+    height: 500px;
+    justify-content: center;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+.roupas{
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+div{
+  display: inline-block;
+  align-items: center;
+}
+#fotob{
+  width: 1480px;
+  height: auto;
+}
+#look{
+  width: 3000px;
+  height: 3000px;
+}
